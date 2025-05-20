@@ -1,0 +1,205 @@
+nohup: ignoring input
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+/media/user/volume2/dip21e035-1/anaconda3/envs/WGNN/lib/python3.9/site-packages/dgl/data/utils.py:354: UserWarning: Property dataset.num_labels will be deprecated, please use dataset.num_classes instead.
+  warnings.warn(
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+/media/user/volume2/dip21e035-1/anaconda3/envs/WGNN/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/media/user/volume2/dip21e035-1/anaconda3/envs/WGNN/lib/python3.9/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Epoch 00000 | Time(s) nan | Loss 1.0988 | Accuracy 0.4560 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3912 | Loss 0.3154 | Accuracy 0.7800 | ETputs(KTEPS) 5.76
+Epoch 00200 | Time(s) 15.3766 | Loss 0.1962 | Accuracy 0.7800 | ETputs(KTEPS) 5.77
+Epoch 00300 | Time(s) 15.3805 | Loss 0.1687 | Accuracy 0.7840 | ETputs(KTEPS) 5.76
+Epoch 00400 | Time(s) 15.3861 | Loss 0.1180 | Accuracy 0.7800 | ETputs(KTEPS) 5.76
+
+Test accuracy 78.00% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0981 | Accuracy 0.5140 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.9171 | Loss 0.2912 | Accuracy 0.7880 | ETputs(KTEPS) 5.57
+Epoch 00200 | Time(s) 15.6279 | Loss 0.1618 | Accuracy 0.7880 | ETputs(KTEPS) 5.67
+Epoch 00300 | Time(s) 15.5349 | Loss 0.1625 | Accuracy 0.7800 | ETputs(KTEPS) 5.71
+Epoch 00400 | Time(s) 15.4889 | Loss 0.1558 | Accuracy 0.7840 | ETputs(KTEPS) 5.72
+
+Test accuracy 77.50% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0991 | Accuracy 0.2340 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3625 | Loss 0.3258 | Accuracy 0.8000 | ETputs(KTEPS) 5.77
+Epoch 00200 | Time(s) 15.3516 | Loss 0.1728 | Accuracy 0.7920 | ETputs(KTEPS) 5.77
+Epoch 00300 | Time(s) 15.3471 | Loss 0.1733 | Accuracy 0.7840 | ETputs(KTEPS) 5.78
+Epoch 00400 | Time(s) 15.3433 | Loss 0.1286 | Accuracy 0.7820 | ETputs(KTEPS) 5.78
+
+Test accuracy 78.20% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0995 | Accuracy 0.4680 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3428 | Loss 0.3248 | Accuracy 0.7900 | ETputs(KTEPS) 5.78
+Epoch 00200 | Time(s) 15.3463 | Loss 0.1765 | Accuracy 0.7820 | ETputs(KTEPS) 5.78
+Epoch 00300 | Time(s) 15.3531 | Loss 0.1621 | Accuracy 0.7900 | ETputs(KTEPS) 5.77
+Epoch 00400 | Time(s) 15.3547 | Loss 0.1280 | Accuracy 0.7880 | ETputs(KTEPS) 5.77
+
+Test accuracy 77.80% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0974 | Accuracy 0.2040 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3456 | Loss 0.3686 | Accuracy 0.8000 | ETputs(KTEPS) 5.78
+Epoch 00200 | Time(s) 15.3539 | Loss 0.2081 | Accuracy 0.7880 | ETputs(KTEPS) 5.77
+Epoch 00300 | Time(s) 15.3521 | Loss 0.1877 | Accuracy 0.7860 | ETputs(KTEPS) 5.77
+Epoch 00400 | Time(s) 15.3518 | Loss 0.1516 | Accuracy 0.7840 | ETputs(KTEPS) 5.77
+
+Test accuracy 78.10% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0976 | Accuracy 0.5260 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3490 | Loss 0.3166 | Accuracy 0.7880 | ETputs(KTEPS) 5.78
+Epoch 00200 | Time(s) 15.3517 | Loss 0.2195 | Accuracy 0.7940 | ETputs(KTEPS) 5.77
+Epoch 00300 | Time(s) 15.3521 | Loss 0.1546 | Accuracy 0.7800 | ETputs(KTEPS) 5.77
+Epoch 00400 | Time(s) 15.3509 | Loss 0.1809 | Accuracy 0.7820 | ETputs(KTEPS) 5.77
+
+Test accuracy 78.00% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0993 | Accuracy 0.4980 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3712 | Loss 0.3471 | Accuracy 0.7900 | ETputs(KTEPS) 5.77
+Epoch 00200 | Time(s) 15.3567 | Loss 0.2496 | Accuracy 0.7820 | ETputs(KTEPS) 5.77
+Epoch 00300 | Time(s) 15.3389 | Loss 0.2186 | Accuracy 0.7760 | ETputs(KTEPS) 5.78
+Epoch 00400 | Time(s) 15.3215 | Loss 0.2174 | Accuracy 0.7740 | ETputs(KTEPS) 5.79
+
+Test accuracy 77.90% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0994 | Accuracy 0.4220 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.2728 | Loss 0.3009 | Accuracy 0.7860 | ETputs(KTEPS) 5.80
+Epoch 00200 | Time(s) 15.2736 | Loss 0.2463 | Accuracy 0.7800 | ETputs(KTEPS) 5.80
+Epoch 00300 | Time(s) 15.2776 | Loss 0.1452 | Accuracy 0.7780 | ETputs(KTEPS) 5.80
+Epoch 00400 | Time(s) 15.2743 | Loss 0.1724 | Accuracy 0.7820 | ETputs(KTEPS) 5.80
+
+Test accuracy 77.60% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0994 | Accuracy 0.3160 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.2585 | Loss 0.3295 | Accuracy 0.7980 | ETputs(KTEPS) 5.81
+Epoch 00200 | Time(s) 15.2606 | Loss 0.2266 | Accuracy 0.7860 | ETputs(KTEPS) 5.81
+Epoch 00300 | Time(s) 15.2623 | Loss 0.1648 | Accuracy 0.7780 | ETputs(KTEPS) 5.81
+Epoch 00400 | Time(s) 15.2667 | Loss 0.2021 | Accuracy 0.7840 | ETputs(KTEPS) 5.81
+
+Test accuracy 78.10% eta_regu 0.001
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88651
+Epoch 00000 | Time(s) nan | Loss 1.0992 | Accuracy 0.4960 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 15.3058 | Loss 0.2909 | Accuracy 0.8000 | ETputs(KTEPS) 5.79
+Epoch 00200 | Time(s) 15.2974 | Loss 0.1699 | Accuracy 0.7880 | ETputs(KTEPS) 5.80
+Epoch 00300 | Time(s) 15.8259 | Loss 0.2095 | Accuracy 0.7840 | ETputs(KTEPS) 5.60
+Epoch 00400 | Time(s) 16.3334 | Loss 0.1295 | Accuracy 0.7840 | ETputs(KTEPS) 5.43
+
+Test accuracy 78.20% eta_regu 0.001
+plain model, test_acc  (0.7794, 0.0024129281427805165)
+eta_1 0 eta_2 0
+graph generated:  Graph(num_nodes=19717, num_edges=88648,
+      ndata_schemes={}
+      edata_schemes={})
+  NumNodes: 19717
+  NumEdges: 88651
+  NumFeats: 500
+  NumClasses: 3
+  NumTrainingSamples: 60
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+----Data statistics------'
+      #Nodes 19717
+      #Edges 88648
+Epoch 00000 | Time(s) nan | Loss 1.0974 | Accuracy 0.5840 | ETputs(KTEPS) nan
+Epoch 00100 | Time(s) 17.9882 | Loss 0.3056 | Accuracy 0.7800 | ETputs(KTEPS) 4.93
