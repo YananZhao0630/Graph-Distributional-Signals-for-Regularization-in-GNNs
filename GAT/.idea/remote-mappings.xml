@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://dip21e035-1@dl2080-16.dynip.ntu.edu.sg:22/media/user/volume2/dip21e035-1/anaconda3/envs/py_CGNN/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/user/volume2/dip21e035-1/zyn/Proj1_distributed_signals/GAT" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
