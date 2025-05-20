@@ -27,7 +27,7 @@ For applying our regularization methods to other baseline models, please refer t
 
 ## Reference
 
-Our proposed simple tricks such as adding edges and normalization for node classification are based on different models, developed based on the following repo: 
+Our proposed regularization method is implemented based on different models (e.g., CGNN, GraphCON, PN-SI, and WGNN) , developed based on the following repo: 
 
 GraphCON: https://github.com/tk-rusch/GraphCON
 
