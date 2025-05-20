@@ -12,5 +12,13 @@ This repository contains the code for our IEEE TSPIN accepted paper.
 To install the required dependencies, refer to the `environment.yml` file.
 
 ## Reproducing Results
-We take GCN as the basic example model. To reproduce the results in Table 3, run the following commands:
+We use GCN as the baseline model, implemented in the GCN file. To reproduce the results in Table 3, run the following command:
 
+```bash
+python train_GCN_RLoss.py 
+python train_GCN_Preg.py 
+python train_GCN_Lreg.py 
+
+
+```
+These scripts correspond to different regularization methods, referred to as R-GCN, P-GCN, and L-GCN, respectively. Among them, R-GCN is our proposed method.
