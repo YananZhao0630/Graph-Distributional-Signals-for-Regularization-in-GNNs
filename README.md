@@ -24,3 +24,25 @@ python train_GCN_Lreg.py
 These scripts correspond to different regularization methods, referred to as R-GCN, P-GCN, and L-GCN, respectively. Among them, R-GCN is our proposed method.
 
 For applying our regularization methods to other baseline models, please refer to the respective folders: CGNN/, GAT/, GraphCON/, PN-SI/, and WGNN/. Each folder contains the corresponding training scripts named xxx_RLoss.py, xxx_PLoss.py, and xxx_LLoss.py, where xxx denotes the model name.
+
+## Reference
+
+Our proposed simple tricks such as adding edges and normalization for node classification are based on different models, developed based on the following repo: 
+
+GraphCON: https://github.com/tk-rusch/GraphCON
+PN-SI: https://github.com/LingxiaoShawn/PairNorm
+WGNN: https://github.com/amblee0306/label-non-uniformity-gnn
+CGNN: https://github.com/GeoX-Lab/CGNN
+
+
+## Citation
+If you find our helpful, consider to cite us:
+
+```bibtex
+@ARTICLE{JiZha2025,
+	author = {Feng Ji, Yanan Zhao, See Hian Lee, Kai Zhao, Wee Peng Tay and Jielong Yang},
+	title={Graph Distributional Signals for Regularization in Graph Neural Networks},
+	journal= {{IEEE} Transactions on Signal and Information Processing over Networks}, 
+	year={2025}
+}
+```
