@@ -30,8 +30,11 @@ For applying our regularization methods to other baseline models, please refer t
 Our proposed simple tricks such as adding edges and normalization for node classification are based on different models, developed based on the following repo: 
 
 GraphCON: https://github.com/tk-rusch/GraphCON
+
 PN-SI: https://github.com/LingxiaoShawn/PairNorm
+
 WGNN: https://github.com/amblee0306/label-non-uniformity-gnn
+
 CGNN: https://github.com/GeoX-Lab/CGNN
 
 
