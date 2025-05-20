@@ -22,3 +22,5 @@ python train_GCN_Lreg.py
 
 ```
 These scripts correspond to different regularization methods, referred to as R-GCN, P-GCN, and L-GCN, respectively. Among them, R-GCN is our proposed method.
+
+For applying our regularization methods to other baseline models, please refer to the respective folders: CGNN/, GAT/, GraphCON/, PN-SI/, and WGNN/. Each folder contains the corresponding training scripts named xxx_RLoss.py, xxx_PLoss.py, and xxx_LLoss.py, where xxx denotes the model name.
